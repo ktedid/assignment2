@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Assignment 2</title>
+    <meta charset="utf-8" name="author" content="ktedid">
+    <link href="CSS/formstyle.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+    <header>
+      <h2>Student Poll Form</h2>
+      <div type="error">
+        <p id="top".</p>
+      </div><br>
+    </header>
+    <div type="form">
+      <form name="myform" action="success.html" method="GET">
+        <label>First name:
+          <input type="text" name="firstname">
+        </label>
+        <div type="error" id="fname"></div><br>
+        <label>Last name:
+          <input type="text" name="lastname">
+        </label>
+        <div type="error" id="lname"></div><br>
+        <label>Class:
+          <br>
+          <input type="radio" name="class" id="Freshman" checked="">
+          <label>Freshman</label><br>
+          <input type="radio" name="class" id="Sophomore">
+          <label>Sophomore</label><br>
+          <input type="radio" name="class" id="Junior">
+          <label>Junior</label><br>
+          <input type="radio" name="class" id="Senior">
+          <label>Senior</label><br>
+        </label>
+        <button onclick="return verify()">Submit</button>
+      </form>
+    </div>
+    <script type="text/JavaScript" src="JS/script.js"></script>
+  </body>
+</html>
